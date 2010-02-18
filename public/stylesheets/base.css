@@ -1,3 +1,46 @@
+body {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Helvetica, Arial, sans-serif;
+	color: #51463d;
+	font-size: 80%;
+	background: #ffffff;
+}
 
 
+/* Top section */
+#header {
+  background-color: #676046;
+  border-bottom-color: rgb(73, 69, 215);
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border: 0px;
+  padding: 20px;
+}
+
+/* Main */
+
+
+/* Footer */
+#footer {
+	clear: both;
+	margin: 0 auto;
+	padding: 10px 0 30px 0;
+	font-size: 1em;
+	color: #9c836e;
+	border-top: 3px solid #e2e1d4;
+	background-color: #676046;
+}
+
+/* Links */
+a:link, a:visited {
+  font-weight: bold;
+  text-decoration: none;
+  outline: none;
+  color: #3792b3;
+}
+	
+/* Some CSS 3 styles */
+#round {
+  -webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+}
 

@@ -1,0 +1,13 @@
+/* 
+Title:		Screen styles and ie/win patches
+Author: 	dan@simplebits.com
+
+Adapted: Duncan Hurwood, for use on free website
+
+*/
+
+/* import stylesheets and hide from ie/mac \*/
+@import url("reset.css");
+@import url("base.css");
+@import url("ie.css");
+/* end import/hide */
