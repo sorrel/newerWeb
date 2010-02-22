@@ -12,4 +12,7 @@
 #
 
 class Blog < ActiveRecord::Base
+  attr_accessible :post, :tags, :author
+  
+  
 end
