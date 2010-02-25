@@ -1,0 +1,10 @@
+<% content_for :main do %>
+    <% for blog in @blogs do %>
+        <%= link_to "#{blog.title}", :controller => 'blogs', :action => 'show', :id => blog.id %><br />
+        Text: <%= blog.post[0..56] %>...<br /><br />
+    <% end %>
+<% end %>
+
+<% content_for :sidebar do %>
+    Here is the latest content.
+<% end %>

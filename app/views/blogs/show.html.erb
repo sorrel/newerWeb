@@ -4,3 +4,11 @@
     Text: <%= @blog.post %><br />
     Tags: <%= @blog.tags %>
 <% end %>
+
+<% content_for :sidebar do %>
+    <% for blog in @blogs do %>
+        Title: <%= blog.title %><br />
+        By: <%= blog.author %><br />
+        Text: <%= blog.post[0..56] %>...<br />
+    <% end %>
+<% end %>
