@@ -3,8 +3,13 @@ The Hurwood family website.
 Things to do include:
 
  - Sort out pictures in blogs, and what to do with them.
- - Database online
  - Security
  - About pages
  - Whether other pages should be in a database
  - the design
+ 
+  - Sort out the database system: blogs table -> multiple comments
+                                  perhaps a table for pictures, potentially many for each blog
+                                  
+                                  
+ - Then the other text in the system: the old website
