@@ -8,7 +8,7 @@ class PagesController < ApplicationController
   end
 
   def family
-    @title = "Family"
+    @title = "The Hurwood Family"
   end
 
 end
