@@ -8,8 +8,10 @@
 
 <% content_for :sidebar do %>
     <% for blog in @blogs do %>
-        Title: <%= blog.title %><br />
-        By: <%= blog.author %><br />
-        Text: <%= blog.post[0..56] %>...<br />
+        <%if blog != @blog %>
+            <%= link_to "#{blog.title}", :controller => 'blogs', :action => 'show', :id => blog.id %><br />
+            By: <%= blog.author %><br />
+            Text: <%= blog.post[0..56] %>...<br />
+        <% end %>
     <% end %>
 <% end %>
