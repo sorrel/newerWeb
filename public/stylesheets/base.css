@@ -2,12 +2,12 @@ body {
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Helvetica, Arial, sans-serif;
 	color: #51463d;
 	font-size: 80%;
-	background: #F2F3EE;
+	background: #EEEFEA;
 }
 
 #wrap {
   position: relative;
-  background: #4B7C53;
+  background: #B22112;
   margin: 0 auto;
   margin-top: 25px;
   padding: 10px;
@@ -30,10 +30,22 @@ body {
 
 /* Top section */
 #header {
-  padding: 10px, 10px 10px, 0;
   text-align: left;
-  font-size: 130%;
-  background: #4B7C53;
+  font-size: 120%;
+  background: #B22112;
+}
+
+#title {
+  clear: both;
+  padding: 10px;
+  font-weight: bolder;
+  float: left;
+  font-family: "Baskerville", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Helvetica, Arial, sans-serif;
+  font-size: 160%;
+}
+#title a {
+  text-decoration: none;
+  color: #D5C8C8;
 }
 
 /* nav */
@@ -43,7 +55,6 @@ body {
 	max-width: 1200px;
 	min-width: 650px;
 	margin: 0 auto;
-	background: #4B7C53;
 	float: right;
 }
 #nav ul {
@@ -64,30 +75,22 @@ body {
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	padding: 10px;
-}
-#nav ul em {
-  display: block;
-	font-weight: normal;
-	font-style: normal;
-	text-transform: none;
-	letter-spacing: 0;
-	color: #b2a18f;
+	padding: 15px;
 }
 
-#nav ul a {
-    display:block;
-    width:100%;
-    height:100%;
+#nav ul li a {
+    color: #2A2A2A;
     text-decoration:none;
-    background: #4B7C53;
-    -webkit-transition: background-color .5s linear;
+    text-shadow: 0 1px 0 rgba(213,200,200,.3);
 }
-#nav ul a:hover {
-  text-decoration:none;
-  background-color: white;
-  -webkit-border-top-right-radius: 8px;
-  -webkit-border-top-left-radius: 8px;
+#nav a:hover,
+ul#home #t-home a,
+ul#about #t-about a,
+ul#family #t-family a,
+ul#blog #t-blog a{
+  color: #ffffff;
+  font-size: 105%;
+  -webkit-transition: color .4s linear;
 }
 
 
@@ -97,24 +100,29 @@ body {
   position: relative;
   margin: 0 auto;
   margin-top: 20px;
-  padding: 40px 0 0 0;
+  padding: 10px 0 0 0;
   width: 80%;
   max-width: 70em;
   min-width: 600px; 
 }
 #main {
+  border-top: 1px dashed #E0E0E0;
   float: left;
   width: 73%;
+  padding-top: 10px;
 }
 
 #aside {
+  border-top: 1px dashed #E0E0E0;
   float: right;
   width: 25%;
+  padding-top: 10px;
+  height: 100%;
 }
 
 #aside .gutter {
-    padding: 15px;
-    border-left: 1px dashed #CAC9C7;
+    padding-left: 15px;
+    border-left: 1px dashed #E0E0E0;
 }
 
 /* Footer */
@@ -127,12 +135,12 @@ body {
 }
 
 /* Links */
-a:link, a:visited {
+/*a:link, a:visited {
   font-weight: bold;
   text-decoration: none;
   outline: none;
   color: #3792b3;
-}
+}*/
 	
 /* self-clear floats */
 .group:after {
