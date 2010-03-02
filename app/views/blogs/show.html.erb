@@ -1,17 +1,20 @@
 <% content_for :main do %>
-    Title: <%= @blog.title %><br />
-    By: <%= @blog.author %><br /><br />
-    Text: <%= @blog.post %><br />
+    <%= @blog.title %><br />
+    By <%= @blog.author %><br /><br />
+    <%= @blog.post %><br />
     Tags: <%= @blog.tags %>
 <% end %>
 
 
 <% content_for :sidebar do %>
+    Previous blogs:<br />
     <% for blog in @blogs do %>
         <%if blog != @blog %>
-            <%= link_to "#{blog.title}", :controller => 'blogs', :action => 'show', :id => blog.id %><br />
-            By: <%= blog.author %><br />
-            Text: <%= blog.post[0..56] %>...<br />
+            <div class="titles">
+                <%= link_to "#{blog.title}", :controller => 'blogs', :action => 'show', :id => blog.id %><br />
+            </div>
+            <%= blog.author %><br />
+            <%= blog.post[0..56] %>...<br />
         <% end %>
     <% end %>
 <% end %>

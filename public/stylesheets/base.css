@@ -101,7 +101,7 @@ ul#blog #t-blog a{
   margin: 0 auto;
   margin-top: 20px;
   padding: 10px 0 0 0;
-  width: 80%;
+  width: 88%;
   max-width: 70em;
   min-width: 600px; 
 }
@@ -121,7 +121,7 @@ ul#blog #t-blog a{
 }
 
 #aside .gutter {
-    padding-left: 15px;
+    padding-left: 18px;
     border-left: 1px dashed #E0E0E0;
 }
 
@@ -135,12 +135,49 @@ ul#blog #t-blog a{
 }
 
 /* Links */
-/*a:link, a:visited {
+.titles {
+  text-align: left;
+}
+
+.titles a:link, .titles a:visited {
+  font-size: 120%;
   font-weight: bold;
   text-decoration: none;
   outline: none;
-  color: #3792b3;
-}*/
+  color: #B22112;
+  
+}
+
+.titles a:hover {
+  background: #E5E5E1;
+  color: #E12310;
+  border-bottom: 1px solid #601108;
+}
+	
+/* images */
+img, object {
+  max-width: 100%;
+}
+
+div.special {
+  border: 15px solid #e2e1d4;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+}
+	
+div.special span {
+  display: block;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  font-family: Georgia, serif;
+  font-size: 1.1em;
+  font-weight:normal;
+  line-height: 1.3em;
+  color: #ccc;
+  background: #333;
+}
 	
 /* self-clear floats */
 .group:after {
