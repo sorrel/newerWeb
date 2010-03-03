@@ -18,6 +18,8 @@ body {
   -webkit-box-shadow: 12px 12px 6px rgba(0,0,0,.3);
   -moz-box-shadow: 12px 12px 6px rgba(0,0,0,.3);
   -webkit-border-radius: 16px;
+  border-radius: 16px;
+  -moz-border-radius: 16px;
 }
 
 #inner_wrap {
@@ -25,6 +27,8 @@ body {
   padding: 0px;
   padding: 0px;
   width: 100%;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
 }
 
@@ -53,7 +57,7 @@ body {
 	position: relative;
 	width: 70%;
 	max-width: 1200px;
-	min-width: 650px;
+	min-width: 400px;
 	margin: 0 auto;
 	float: right;
 }
@@ -157,26 +161,55 @@ ul#blog #t-blog a{
 /* images */
 img, object {
   max-width: 100%;
+  border: none;
 }
-
+	
 div.special {
-  border: 15px solid #e2e1d4;
+	position: relative;
+	overflow: hidden;
+	border: 10px solid #9C9B9B;
+	background: #9C9B9B;
   border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
+  
+  box-shadow: 2px 2px 2px rgba(0,0,0,.3);
+  -webkit-box-shadow: 3px 3px 3px rgba(0,0,0,.3);
+  -moz-box-shadow: 2px 2px 2px rgba(0,0,0,.3);
+}
+
+div.special.trans {
+  background: #ffffff;
 }
 	
 div.special span {
   display: block;
+  position: absolute;
   width: 100%;
-  bottom: 0;
-  left: 0;
+  bottom: 6px;
+  left: 6px;
+  width: 98%;
   font-family: Georgia, serif;
   font-size: 1.1em;
   font-weight:normal;
   line-height: 1.3em;
-  color: #ccc;
-  background: #333;
+  background: #840202;
+  background: rgba(128,0,0,.8);
+}
+
+div.special span strong {
+  display: block;
+  padding: 10px 10px 0 10px;
+  font-weight: normal;
+  font-style: italic;
+  color: #ffffff;
+}
+	
+div.special span em {
+  display: block;
+  padding: 0px 10px 10px 10px;
+  font-style: italic;
+  color: #C2AC77;
 }
 	
 /* self-clear floats */
