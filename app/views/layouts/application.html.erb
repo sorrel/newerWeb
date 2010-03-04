@@ -3,22 +3,22 @@
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
   
-	<head>
-    	<title><%= @title %></title>
-    	<%= render 'layouts/stylesheets' %>
- 	</head>
+<head>
+    <title><%= @title %></title>
+    <%= render 'layouts/stylesheets' %>
+</head>
   
-    <body>
-        <div id="wrap" class="group">
-            <div id="inner_wrap" class="group">
-                <%= render 'layouts/header' %>
-                <div id="wrapcol" class="group">
-        	        <%= render 'layouts/main' %>
-        	        <%= render 'layouts/sidebar' %>
-        	    </div>
-                <%= render 'layouts/footer' %>
-                <% debug(params) if Rails.env.development? %>
-            </div>
+<body>
+    <div id="wrap" class="group">
+        <div id="inner_wrap" class="group">
+            <%= render 'layouts/header' %>
+            <div id="wrapcol" class="group">
+        	    <%= render 'layouts/main' %>
+        	    <%= render 'layouts/sidebar' %>
+        	</div>
+            <%= render 'layouts/footer' %>
+            <% debug(params) if Rails.env.development? %>
         </div>
-    </body>
+    </div>
+</body>
 </html>
