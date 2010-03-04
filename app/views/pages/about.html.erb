@@ -1,13 +1,20 @@
 <% content_for :main do %>
-    <p>For now, I'm just getting the pictures to work correctly.</p><br />
-    
-    <div class="special trans">
-    	<%= hurwoodgroup2005 %>
-    	<span><strong>The Hurwood Family</strong> <em>2005</em></span>
-    </div>
+    <% if @content == "design" %>
+        <H1>Design Page</h1>
+            <%= @content %>
+    <% else %>
+        <h1>History Page</h1>
+        <%= @content %>
+    <% end %>
 <% end %>
 
 <% content_for :sidebar do %>
-    <p>The Hurwood family website has been on the web since 1998.</p><br />
-    <p>This section looks at its history, and examines the design decisions behind this latest version of the website.</p>
+    <p>The Hurwood family website has been on the web since 1999.</p><br />
+    <p>This section looks at the design and history of the site.</p></br /><br />
+    <%= link_to "Site coding and design", design_url %><br/ >
+    A brief look at the design and coding philosophy behind the site<br /><br />
+    <%= link_to "Site history", history_url %><br/ >
+    A look at past versions of the website.
 <% end %>
+
+

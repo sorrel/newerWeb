@@ -3,7 +3,8 @@ ActionController::Routing::Routes.draw do |map|
   map.root :controller => 'pages', :action => 'home'
   map.about   '/about',   :controller => 'pages', :action => 'about'
   map.family   '/family',   :controller => 'pages', :action => 'family'
-  
+  map.design '/design', :controller => 'pages', :action => 'design'
+  map.history '/history', :controller => 'pages', :action => 'history'
   map.resources :blogs
 
   # Sample of regular route:
