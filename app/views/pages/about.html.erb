@@ -2,9 +2,17 @@
     <% if @content == "design" %>
         <H1>Design Page</h1>
             <%= @content %>
-    <% else %>
+    <% elsif @content == "history"%>
         <h1>History Page</h1>
         <%= @content %>
+    <% else %>
+        <p>The website has been designed to adhere to modern standards, which can be tested by putting the site through the <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fhurwood.heroku.com%2Fabout&charset=%28detect+automatically%29&doctype=Inline&group=0">W3C Markup Validation tool</a>.</p><br />
+        <p>As it passes as <a href="http://www.w3.org/TR/xhtml11/">Strict XHTML 1.1</a>, I have put the banner below:</p><br />
+        <p>
+            <a href="http://validator.w3.org/check?uri=referer">
+                <img src="http://www.w3.org/Icons/valid-xhtml11" alt="Valid XHTML 1.1" height="31" width="88" />
+            </a>
+        </p>
     <% end %>
 <% end %>
 
