@@ -6,19 +6,25 @@
         <h1>History Page</h1>
         <%= @content %>
     <% else %>
-        <p>The website has been designed to adhere to modern standards, which can be tested by putting the site through the <a href="http://validator.w3.org/check?uri=http://hurwood.heroku.com/about">W3C Markup Validation tool</a>.</p><br />
-        <p>As it passes as <a href="http://www.w3.org/TR/xhtml11/">Strict XHTML 1.1</a>, I have put the banner below:</p><br />
+        <p>The website has been designed to adhere to recent standards, which can be tested by putting the site through the <a href="http://validator.w3.org/check?uri=http://hurwood.heroku.com/about">W3C Markup Validation tool</a>.</p><br />
+        <p>As it passes as <a href="http://www.w3.org/TR/xhtml11/">Strict XHTML 1.1</a>, I have put the XHTML banner below:</p><br />
         <p>
-            <a href="http://validator.w3.org/check?uri=referer">
+            <a href="http://validator.w3.org/check?uri=http://hurwood.heroku.com/about">
                 <img src="http://www.w3.org/Icons/valid-xhtml11" alt="Valid XHTML 1.1" height="31" width="88" />
             </a>
-        </p>
+        </p><br />
+        <p>Sadly, although I would like to give the site a CSS banner (as it used to have), I can't have both this and the advance rendering of CSS3 features, such as the new <a href="http://www.w3.org/TR/css3-background/#the-border-radius">CSS3 border properties</a>.</p><br /> 
+        <p>These features are slowly arriving on browsers, such as the recently released <a href="http://www.opera.com/browser/">Opera 10.5</a>, although in the case of <a href="http://webkit.org/">webkit</a> and <a href="http://www.mozilla.org/">mozilla</a> browsers unfortunately a <a href="http://www.lowter.com/blogs/2009/2/17/proprietary-css-properties">proprietary css</a> form has arrived first.</p></br /><br />
+        <p>To find out more, read either of the articles in this section:</p>
+        <ul><li><%= link_to "Site coding and design", design_url, :class=> "titles"%><br /></li>
+            <li><%= link_to "Site history", history_url %></li>
+        </ul>
     <% end %>
 <% end %>
 
 <% content_for :sidebar do %>
     <p>The Hurwood family website has been on the web since 1999.</p><br />
-    <p>This section looks at the design and history of the site.</p><br /><br />
+    <p>The <%= link_to "About", about_url %> section looks at the design and history of the site.</p><br /><br />
     <%= link_to "Site coding and design", design_url %><br />
     A brief look at the design and coding philosophy behind the site<br /><br />
     <%= link_to "Site history", history_url %><br />

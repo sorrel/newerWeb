@@ -85,7 +85,7 @@ body {
 #nav ul li a {
     color: #2A2A2A;
     text-decoration:none;
-    text-shadow: 0 1px 0 rgba(213,200,200,.3);
+    text-shadow: rgba(213,200,200,.3) 0px 1px 0px;
 }
 #nav a:hover,
 ul#home #t-home a,
@@ -110,14 +110,14 @@ ul#blog #t-blog a{
   min-width: 600px; 
 }
 #main {
-  border-top: 1px dashed #E0E0E0;
+  border-top: 1px dashed #C0C0C0;
   float: left;
   width: 73%;
   padding-top: 10px;
 }
 
 #aside {
-  border-top: 1px dashed #E0E0E0;
+  border-top: 1px dashed #C0C0C0;
   float: right;
   width: 25%;
   padding-top: 10px;
@@ -126,15 +126,15 @@ ul#blog #t-blog a{
 
 #aside .gutter {
     padding-left: 18px;
-    border-left: 1px dashed #E0E0E0;
+    border-left: 1px dashed #C0C0C0;
 }
 
 /* Footer */
 #footer {
   clear: both;
 	margin: 0 auto;
-	padding: 10px 10px 10px 20px;
-	font-size: 1em;
+	padding: 20px 10px 10px 20px;
+	font-size: 0.8em;
 	color: #9c836e;
 }
 
