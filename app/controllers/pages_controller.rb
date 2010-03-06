@@ -11,16 +11,14 @@ class PagesController < ApplicationController
   end
   
   def history
-    @content = "history"
     @title = "About the history"
-    @page = "about"
+    @page = "history"
     render(:action => :about)
   end
 
   def design
-    @content = "design"
     @title = "About the design"
-    @page = "about"
+    @page = "design"
     render(:action => :about)
   end  
 

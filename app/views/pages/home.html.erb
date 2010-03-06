@@ -5,11 +5,11 @@
 
 <% content_for :sidebar do %>
     <p>This is the Hurwood Family website.</p><br />
-    <p>Site Contents:</p><br />
-    <p>Blog</p>
-    <p>Duncan's occasional articles</p><br />
-    <p>Family</p>
-    <p>Work and beyond; the things we do</p><br />
-    <p>About</p>
-    <p>Information about how the site was made, and our web archive</p><br />
+    <p>It contains:</p><br />
+    <p><%= link_to "Blogs", blogs_url %></p>
+    <p>Duncan's occasional articles.</p><br />
+    <p><%= link_to "Family", family_url %></p>
+    <p>Work and beyond; the things we do.</p><br />
+    <p><%= link_to "About the site", about_url %></p>
+    <p>Information about how the site was made, and also our web archive.</p><br />
 <% end %>

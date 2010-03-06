@@ -1,10 +1,7 @@
 <% content_for :main do %>
-    <% if @content == "design" %>
-        <H1>Design Page</h1>
-            <%= @content %>
-    <% elsif @content == "history"%>
-        <h1>History Page</h1>
-        <%= @content %>
+    <% if @page == "design" or @page == "history" %>
+        <%= @page %>
+        Some text
     <% else %>
         <p>The website has been designed to adhere to recent standards, which can be tested by putting the site through the <a href="http://validator.w3.org/check?uri=http://hurwood.heroku.com/about">W3C Markup Validation tool</a>.</p><br />
         <p>As it passes as <a href="http://www.w3.org/TR/xhtml11/">Strict XHTML 1.1</a>, I have put the XHTML banner below:</p><br />
@@ -24,7 +21,7 @@
 
 <% content_for :sidebar do %>
     <p>The Hurwood family website has been on the web since 1999.</p><br />
-    <p>The <%= link_to "About", about_url %> section looks at the design and history of the site.</p><br /><br />
+    <p>This <%= link_to "About", about_url %> section looks at the design and history of the site.</p><br /><br />
     <%= link_to "Site coding and design", design_url %><br />
     A brief look at the design and coding philosophy behind the site<br /><br />
     <%= link_to "Site history", history_url %><br />
