@@ -5,20 +5,25 @@ class PagesController < ApplicationController
   end
 
   def about
-    @title = "About the site"
-    @page = "about"
-    @content = "A banana"
+    @art = Article.findAboutPage
+    @title = @art.title
+    @page = @art.page
+    @content = @art.content
   end
   
   def history
-    @title = "About the history"
-    @page = "history"
+    @art = Article.findHistoryPage
+    @title = @art.title
+    @page = @art.page
+    @content = @art.content
     render(:action => :about)
   end
 
   def design
-    @title = "About the design"
-    @page = "design"
+    @art = Article.findDesignPage
+    @title = @art.title
+    @page = @art.page
+    @content = @art.content
     render(:action => :about)
   end  
 

@@ -1,21 +1,7 @@
 
 
 module PagesHelper
-  
-  def designPage
-    return "<h1>Design page</h1>"
-  end
-  @designPage = "<h1>Design page</h1>"
-  @historyPage = "History Page
 
-  <p>For now, I'm just getting the pictures to work correctly.</p><br />
-
-  <div class='special trans'>
-  	<%= hurwoodgroup2005 %>
-  	<span><strong>The Hurwood Family</strong> <em>2005</em></span>
-  </div>"
- 
-  
   # Images
   def hurwoodgroup2005
       image_tag("hurwoodgroup2005.png", :alt => "The Hurwoods 2005")
