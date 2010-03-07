@@ -201,13 +201,18 @@ div.special {
 div.special.trans {
   background: #ffffff;
 }
+
+div.special.black {
+  background: #000000;
+}
+
 	
 div.special span {
   display: block;
   position: absolute;
   width: 100%;
   bottom: 6px;
-  left: 6px;
+  left: 5px;
   width: 98%;
   font-family: Georgia, serif;
   font-size: 1.1em;

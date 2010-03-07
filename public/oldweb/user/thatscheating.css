@@ -1,0 +1,264 @@
+/* The scroll bars are only useful in IE */
+ body{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	margin: 0px 0px 0px 0px;
+	background-color : white;
+	color : #000000;
+	font-size : 80%;
+	font-style : normal;
+	font-weight : normal;
+}
+blockquote{
+	font-weight : bold;
+}
+img{
+	border : 0;
+	text-align : center;
+	text-decoration : none;
+}
+.fig{
+	float:left;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+.fig.list{
+	float:left;
+	margin-right: 5px;
+	clear:both;
+}
+img.picture{
+	border:2px dashed black;
+	margin: 5px;
+}
+em{
+	color : #650A19;
+	background-color : transparent;
+	font-size : 105%;
+	font-weight : bolder;
+	font-style : normal;
+}
+em.title{
+	color : #FF9966;
+	background-color : transparent;
+	font-style : italic;
+}
+#logo{
+	position: relative;
+	left : 0px;
+	top : 8px;
+	width : 150px;
+	height: 60px;
+	background : transparent url(../images/hlogo.gif) no-repeat scroll center;
+	color : black;
+}
+#title{
+	top : 8px;
+	width : auto;
+	text-align : left;
+	margin: 0px 0px 0px 0px;
+	padding : 18px 0px 60px 0px;
+}
+#menucol{
+	position:absolute;
+	left : 0px;
+	top :0px;
+	vertical-align : top;
+	width : 150px;
+	height: 100%;
+	margin : 10px 10px 10px 10px;
+}
+#textcol{
+	position:absolute;
+	top:0px;
+	left:170px;
+	width : 595px;
+	text-align : left;
+	margin: 0px 0px 0px 0px;
+	padding: 10px 0px 0px 0px;
+	height : auto;
+}
+a{
+	COLOR: #FF9966;
+	BACKGROUND-COLOR: transparent;
+	text-decoration : none;
+	font-weight : bolder;
+}
+a:hover {
+	COLOR: #FF9966;
+	BACKGROUND-COLOR: transparent;
+	text-decoration:underline;
+}
+a.textlink{
+	/* empty*/
+}
+a:hover.textlink{
+	text-decoration:none;
+	border-bottom : 1px dashed #FF9966;
+}
+.menuheading{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-style : normal;
+	font-weight : 800;
+	text-align : center;
+	border-top : thin solid black;
+	padding: 3px 0px 3px 0px;
+	border-bottom : thin solid black;
+	border-left: medium solid black;
+	border-right: medium solid black;
+}
+.menuheading.top{
+	padding : 10px 0px 3px 10px;
+	border-top : medium solid black;
+}
+.archive{
+	font-size : 80%;
+	font-style : normal;
+	font-weight : 500;
+	text-align : right;
+}	
+.menulink{
+	font-size : 103%;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-style : normal;
+	font-weight : 600;
+	text-align : right;
+	padding: 3px 15px 0px 0px;
+	border-left: medium solid black;
+	border-right: medium solid black;
+}	
+.menulink.mid{
+	font-size : 103%;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-style : normal;
+	font-weight : 600;
+	text-align : right;
+	border-left: medium solid black;
+	border-right: medium solid black;
+	padding: 3px 15px 12px 0px;
+}	
+.menulink.last{
+	font-size : 103%;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-style : normal;
+	font-weight : 600;
+	text-align : right;
+	border-left: medium solid black;
+	border-right: medium solid black;
+	padding : 3px 15px 12px 0px;
+	border-bottom: medium solid black;
+}	
+.infotext{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 80%;
+	font-style : normal;
+	font-weight : normal;
+	color : #778899;
+	background-color : transparent;
+	text-align : left;
+	padding:0px 0px 0px 6px;
+	clear:both;
+}
+.infotext.sidebar{
+	margin-top : 13px;	
+	text-align : right;
+	padding:0px 0px 0px 0px;
+}
+.infotext.caption{
+	margin : 0px 0px 8px 0px;
+	text-align : center;
+	padding:0px 0px 0px 0px;
+	background : transparent;
+}
+h1{
+	font-family : Arial, Helvetica, sans-serif;
+	padding: 8px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	font-size :275%;
+}
+h2{
+	font-family : Arial, Helvetica, sans-serif;
+	padding: 4px 0px 0px 0px;
+	margin: 25px 0px -15px 0px;
+	font-size :160%;
+}
+h3{
+	padding: 0px 0px 0px 0px;
+	margin: 10px 0px -15px 0px;
+	font-size :105%;
+}
+h4{
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	font-size :105%;
+}
+.leftcolpicture{
+	position:relative;  
+}
+.leftcolpicture.rabbit{
+	height: 82px;
+	width: 110px;
+	top: 14px; 
+	left: 20px;
+	background : transparent url(../images/rabtop.gif) no-repeat scroll;
+}
+.leftcolpicture.fern{
+	top: 20px; 
+	left: 33px;
+	height: 82px;
+	width: 110px;
+	background : transparent url(../images/fern.gif) no-repeat scroll;
+}
+.leftcolpicture.octo{
+	left: 4px;
+	top: 20px; 
+	height: 82px;
+	width: 160px;
+	background : transparent url(../images/octo.gif) no-repeat scroll;
+}
+.leftcolpicture.fish{
+	left: 4px;
+	top: 19px; 
+	height: 101px;
+	width: 160px;
+	background : transparent url(../images/fish.png) no-repeat scroll;
+}
+.leftcolpicture.dog{
+	left: 22px;
+	top: 19px; 
+	height: 82px;
+	width: 110px;
+	background : transparent url(../images/dog.gif) no-repeat scroll;
+}
+.leftcolpicture.lizard{
+	left: 20px;
+	top: 24px; 
+	height: 110px;
+	width: 138px;
+	background : transparent url(../images/lizard.png) no-repeat scroll;
+}
+.leftcolpicture.monkey{
+	left: 22px;
+	top: 19px; 
+	height: 82px;
+	width: 120px;
+	background : transparent url(../images/monkey.gif) no-repeat scroll;
+}
+.leftcolpicture.lion{
+	background : transparent url(../images/lion.png) no-repeat scroll;
+	left: 22px;
+	top: 19px; 
+	height: 99px;
+	width: 130px;
+}
+.mainpicture{
+	background : transparent url(../images/hurwoodgroup.png) no-repeat scroll center;
+	height: 388px;
+	width: 550px;
+	margin-top:15px;
+}
+.mainpicture2005{
+	background : transparent url(../images/hurwoodgroup2005.png) no-repeat scroll center;
+	height: 374px;
+	width: 560px;
+	margin-top:15px;
+}
