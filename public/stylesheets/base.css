@@ -44,7 +44,7 @@ body {
   padding: 8px;
   font-weight: bolder;
   float: left;
-  font-family: "Baskerville", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Helvetica, Arial, sans-serif;
+  font-family: "Baskerville", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Helvetica, Verdana, Arial, sans-serif;
   font-size: 150%;
 }
 #title a {
@@ -96,13 +96,13 @@ body {
 ul#home #t-home a,
 ul#about #t-about a,
 ul#family #t-family a,
-ul#blog #t-blog a {
+ul#blog #t-blog a,
+ul#history #t-about a,
+ul#design #t-about a {
   color: #ffffff;
   font-size: 105%;
   -webkit-transition: color .4s linear;
 }
-
-
 
 /* Main */
 #wrapcol {
