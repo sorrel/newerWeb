@@ -1,9 +1,7 @@
 <% content_for :main do %>
     Most recent updates first:
     <% for blog in @blogs do %>
-        <div class="titles">
-            <%= link_to "#{blog.title}", :controller => 'blogs', :action => 'show', :id => blog.id %>
-        </div>
+        <h2><%= link_to "#{blog.title}", :controller => 'blogs', :action => 'show', :id => blog.id %></h2>
         <%= blog.post[0..56] %>...<br /><br />
     <% end %>
 <% end %>

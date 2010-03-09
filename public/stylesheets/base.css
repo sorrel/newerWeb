@@ -1,6 +1,6 @@
 body {
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Helvetica, Arial, sans-serif;
-	color: #51463d;
+	color: #473D35;
 	font-size: 80%;
 	background: #EEEFEA;
 }
@@ -96,7 +96,7 @@ body {
 ul#home #t-home a,
 ul#about #t-about a,
 ul#family #t-family a,
-ul#blog #t-blog a,
+ul#blogs #t-blog a,
 ul#history #t-about a,
 ul#design #t-about a {
   color: #ffffff;
@@ -143,41 +143,36 @@ ul#design #t-about a {
 	color: #9c836e;
 }
 
+.right {
+	text-align: right;
+	float: right;
+}
+
 /* Links */
-.titles {
-  text-align: left;
-}
-
-.titles a:link, .titles a:visited {
-  font-size: 120%;
-  font-weight: bold;
-  text-decoration: none;
-  outline: none;
-  color: #B22112;
-  
-}
-
-.titles a:hover {
-  background: #E5E5E1;
-  color: #E12310;
-  padding: 1px;
-  border-bottom: 1px solid #601108;
-}
-
 a {
   color: #B22112;
   text-decoration: none;
 }
 
 a:link a:visited {
-  color: #B22112;
+  color: #C61402;
 }
 
-/*a:hover {
-  background: #F3F2CF;
-  color: black;
-  border-bottom: 1px solid black;
-}*/
+a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 120%;
+}
+
+h2#nolink a {
+  color: #473D35;
+}
+
+h2#nolink a:hover {
+  text-decoration: none;
+}
 
 /* images */
 img, object {
@@ -196,6 +191,8 @@ div.special {
   box-shadow: 2px 2px 2px rgba(0,0,0,.3);
   -webkit-box-shadow: 3px 3px 3px rgba(0,0,0,.3);
   -moz-box-shadow: 2px 2px 2px rgba(0,0,0,.3);
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 div.special.trans {

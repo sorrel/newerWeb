@@ -1,10 +1,5 @@
 <% content_for :main do %>
     <%= @art.content %>
-    <% if @page == "about" %>
-        <ul><li><%= link_to "Site coding and design", design_url, :class=> "titles"%><br /></li>
-            <li><%= link_to "Site history", history_url %></li>
-        </ul>
-    <% end %>
 <% end %>
 
 <% content_for :sidebar do %>

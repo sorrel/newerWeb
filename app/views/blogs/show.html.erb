@@ -1,5 +1,5 @@
 <% content_for :main do %>
-    <%= @blog.title %><br />
+    <h2><%= @blog.title %></h2><br />
     By <%= @blog.author %><br /><br />
     <%= @blog.post %><br />
     Tags: <%= @blog.tags %>
@@ -10,9 +10,7 @@
     Previous blogs:<br />
     <% for blog in @blogs do %>
         <%if blog != @blog %>
-            <div class="titles">
-                <%= link_to "#{blog.title}", :controller => 'blogs', :action => 'show', :id => blog.id %><br />
-            </div>
+            <h2><%= link_to "#{blog.title}", :controller => 'blogs', :action => 'show', :id => blog.id %></h2><br />
             <%= blog.author %><br />
             <%= blog.post[0..56] %>...<br />
         <% end %>
