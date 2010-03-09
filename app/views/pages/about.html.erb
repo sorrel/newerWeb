@@ -8,12 +8,7 @@
 <% end %>
 
 <% content_for :sidebar do %>
-    <p>The Hurwood family website has been on the web since 1999.</p><br />
-    <p>This <%= link_to "About", about_url %> section looks at the design and history of the site.</p><br /><br />
-    <%= link_to "Site coding and design", design_url %><br />
-    A brief look at the design and coding philosophy behind the site<br /><br />
-    <%= link_to "Site history", history_url %><br />
-    A look at past versions of the website.
+    <%= @art.sideColumn %>
 <% end %>
 
 

@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100306202044) do
+ActiveRecord::Schema.define(:version => 20100309172953) do
 
   create_table "articles", :force => true do |t|
     t.text     "content"
@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(:version => 20100306202044) do
     t.string   "page"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.text     "sideColumn"
   end
 
   create_table "blogs", :force => true do |t|

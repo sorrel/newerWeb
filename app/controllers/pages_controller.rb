@@ -8,14 +8,12 @@ class PagesController < ApplicationController
     @art = Article.findAboutPage
     @title = @art.title
     @page = @art.page
-    @content = @art.content
   end
   
   def history
     @art = Article.findHistoryPage
     @title = @art.title
     @page = @art.page
-    @content = @art.content
     render(:action => :about)
   end
 
@@ -23,7 +21,6 @@ class PagesController < ApplicationController
     @art = Article.findDesignPage
     @title = @art.title
     @page = @art.page
-    @content = @art.content
     render(:action => :about)
   end  
 
