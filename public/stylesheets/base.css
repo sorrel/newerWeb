@@ -180,6 +180,11 @@ img, object {
   border: none;
 }
 	
+span a:hover,
+span a:hover {
+  text-decoration: none;
+}
+	
 div.special {
 	position: relative;
 	overflow: hidden;
@@ -203,6 +208,17 @@ div.special.black {
   background: #000000;
 }
 
+div.special.small {
+  width: 200px;
+  float: left;
+  margin-right: 20px;
+}
+
+div.special.smaller {
+  width: 200px;
+  float: right;
+  margin-left: 20px;
+}
 	
 div.special span {
   display: block;
@@ -232,6 +248,13 @@ div.special span em {
   padding: 0px 10px 10px 10px;
   font-style: italic;
   color: #C2AC77;
+}
+	
+#nomove {
+  /*max-width: 100%;
+  position: fixed;
+  padding: 3px;
+  border: 2px solid #B22112;*/
 }
 	
 /* self-clear floats */
