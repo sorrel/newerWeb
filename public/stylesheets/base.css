@@ -163,7 +163,8 @@ a:hover {
 }
 
 h2 {
-  font-size: 120%;
+  font-size: 125%;
+  margin-top:10px;
 }
 
 h2.nolink a {
