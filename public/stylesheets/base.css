@@ -166,7 +166,7 @@ h2 {
   font-size: 120%;
 }
 
-h2#nolink a {
+h2.nolink a {
   color: #473D35;
 }
 
