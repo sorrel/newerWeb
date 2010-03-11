@@ -220,7 +220,7 @@ div.special.smaller {
   margin-left: 20px;
 }
 	
-div.special span {
+div.special span span {
   display: block;
   position: absolute;
   width: 100%;
@@ -235,7 +235,7 @@ div.special span {
   background: rgba(128,0,0,.8);
 }
 
-div.special span strong {
+div.special span span strong {
   display: block;
   padding: 10px 10px 0 10px;
   font-weight: normal;
@@ -243,7 +243,7 @@ div.special span strong {
   color: #ffffff;
 }
 	
-div.special span em {
+div.special span span em {
   display: block;
   padding: 0px 10px 10px 10px;
   font-style: italic;
