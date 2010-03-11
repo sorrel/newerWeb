@@ -162,6 +162,14 @@ a:hover {
   text-decoration: underline;
 }
 
+h1 {
+  font-size: 145%;
+  margin-top:5px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: underline;
+}
+
 h2 {
   font-size: 125%;
   margin-top:10px;
