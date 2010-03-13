@@ -258,7 +258,12 @@ div.special span span em {
   font-style: italic;
   color: #C2AC77;
 }
-	
+
+ul {
+  list-style-position: inside;
+  list-style-type: circle;
+}
+
 #nomove {
   /*max-width: 100%;
   position: fixed;
