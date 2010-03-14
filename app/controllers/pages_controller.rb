@@ -30,14 +30,10 @@ class PagesController < ApplicationController
   end
 
   def duncan
-    #@art = Article.findDuncanPage
-    #@title = @art.title
-    #@page = @art.page
-    #render(:action => "family")
     @art = Article.findDuncanPage
     @title = @art.title
     @page = @art.page
-    render(:action => :about)
+    render(:action => :family)
   end
   
   def heidi
