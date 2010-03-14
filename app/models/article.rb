@@ -14,7 +14,7 @@ class Article < ActiveRecord::Base
   end
   
   def self.findDuncanPage
-    find(:first, :conditions => 'title = "Duncans Page"')
+    find(:first, :conditions => "title = 'Site History'")
   end
   
   def self.findHeidiPage
