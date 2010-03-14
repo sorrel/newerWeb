@@ -36,7 +36,7 @@ class PagesController < ApplicationController
     #render(:action => :about)
     @title = "The Hurwood Family"
     @page = "family"
-    render(:action => :family)
+    render(:action => "family")
   end
   
   def heidi
