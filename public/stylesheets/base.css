@@ -259,9 +259,14 @@ div.special span span em {
   color: #C2AC77;
 }
 
-ul {
+ul.list {
   list-style-position: inside;
   list-style-type: circle;
+}
+
+span.code {
+  font: courier;
+  text-decoration: bold;
 }
 
 #nomove {
