@@ -33,7 +33,7 @@ class PagesController < ApplicationController
     @art = Article.findDuncanPage
     @title = @art.title
     @page = @art.page
-    render(:action => :family)
+    render(:action => :about)
   end
   
   def heidi
