@@ -34,7 +34,7 @@ class PagesController < ApplicationController
     #@title = @art.title
     #@page = @art.page
     #render(:action => "family")
-    @art = Article.findDesignPage
+    @art = Article.findDuncanPage
     @title = @art.title
     @page = @art.page
     render(:action => :about)
