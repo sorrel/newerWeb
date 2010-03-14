@@ -98,7 +98,11 @@ ul#about #t-about a,
 ul#family #t-family a,
 ul#blogs #t-blog a,
 ul#history #t-about a,
-ul#design #t-about a {
+ul#design #t-about a,
+ul#duncan #t-family a,
+ul#heidi #t-family a,
+ul#asher #t-family a,
+ul#indigo #t-family a {
   color: #ffffff;
   font-size: 105%;
   -webkit-transition: color .4s linear;

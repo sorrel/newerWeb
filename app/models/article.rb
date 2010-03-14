@@ -10,6 +10,22 @@ class Article < ActiveRecord::Base
   end
   
   def self.findDesignPage
-    find(:first, :conditions => "title = 'Design Decisions'")
+    find(:first, :conditions => "title = 'Coding and Design'")
+  end
+  
+  def self.findDuncanPage
+    find(:first, :conditions => 'title = "Duncan\'s Page"')
+  end
+  
+  def self.findHeidiPage
+    find(:first, :conditions => 'title = "Heidi\'s Page"')
+  end
+  
+  def self.findAsherPage
+    find(:first, :conditions => 'title = "Asher\'s Page"')
+  end
+  
+  def self.findIndigoPage
+    find(:first, :conditions => 'title = "Indigo\'s Page"')
   end
 end

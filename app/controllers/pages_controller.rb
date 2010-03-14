@@ -29,4 +29,31 @@ class PagesController < ApplicationController
     @page = "family"
   end
 
+  def duncan
+    @art = Article.findDuncanPage
+    @title = @art.title
+    @page = @art.page
+    render(:action => :family)
+  end
+  
+  def heidi
+    @art = Article.findHeidiPage
+    @title = @art.title
+    @page = @art.page
+    render(:action => :family)
+  end
+  
+  def indigo
+    @art = Article.findIndigoPage
+    @title = @art.title
+    @page = @art.page
+    render(:action => :family)
+  end
+  
+  def asher
+    @art = Article.findAsherPage
+    @title = @art.title
+    @page = @art.page
+    render(:action => :family)
+  end
 end

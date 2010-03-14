@@ -1,7 +1,28 @@
 <% content_for :main do %>
-    <p>Family stuff.</p>
+    <% if @page == 'family' %>
+        <p>This the website of the 'Hurwood' family, one of several in the UK and around the world.</p>
+        <p>Other websites include:</p><br />
+        <p><a href="http://www.hurwood.org">The Hurwood Family Tree</a>, a genealogy website from Australia, last updated in 2008.</p>
+        <p>
+        <p>Other sites on the net.</p><br />
+        <p>Statistics.</p><br />
+        <p>Locations.</p><br />
+    <% else %>
+        <%= @art.content %>
+    <% end %>
+    
 <% end %>
 
 <% content_for :sidebar do %>
-    <p>This page gives a brief introduction to the Hurwood family, and </p>
+    <p>Please note that this page is still under construction!</p></br /><br />
+    <p>Each person in our family gets their own page.</p><br />
+    <p>Choose from:</p>
+    <ul class="list">
+        <li><a href="/duncan">Duncan</a></li>
+        <li><a href="/heidi">Heidi</a></li>
+        <li><a href="/indigo">Indigo</a></li>
+        <li><a href="/asher">Asher</a></li>
+    </ul>
+    
+    <br /><p>Or see the <a href="/family">Family Page</a> for a brief discussion of of other Hurwoods on the web.</p>
 <% end %>

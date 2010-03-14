@@ -5,6 +5,11 @@ ActionController::Routing::Routes.draw do |map|
   map.family   '/family',   :controller => 'pages', :action => 'family'
   map.design '/design', :controller => 'pages', :action => 'design'
   map.history '/history', :controller => 'pages', :action => 'history'
+  map.design '/design', :controller => 'pages', :action => 'design'
+  map.duncan '/duncan', :controller => 'pages', :action => 'duncan'
+  map.heidi '/heidi', :controller => 'pages', :action => 'heidi'
+  map.indigo '/indigo', :controller => 'pages', :action => 'indigo'
+  map.asher '/asher', :controller => 'pages', :action => 'asher'
   map.resources :blogs
 
   # Sample of regular route:
