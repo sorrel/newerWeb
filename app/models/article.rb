@@ -1,8 +1,6 @@
 class Article < ActiveRecord::Base
   attr_accessible :content, :title, :page
   
-  @dp = "Duncan's Page"
-  
   
   def self.findAboutPage
     find(:first, :conditions => "title = 'About the site'")
@@ -17,18 +15,18 @@ class Article < ActiveRecord::Base
   end
   
   def self.findDuncanPage
-    find(:first, :conditions => "title = #{@dp}")
+    find(:first, :conditions => "page = 'duncan'")
   end
   
   def self.findHeidiPage
-    find(:first, :conditions => "title = 'Heidis Page'")
+    find(:first, :conditions => "page = 'heidi'")
   end
   
   def self.findAsherPage
-    find(:first, :conditions => "title = 'Ashers Page'")
+    find(:first, :conditions => "page = 'asher'")
   end
   
   def self.findIndigoPage
-    find(:first, :conditions => 'title = "Indigo\'s Page"')
+    find(:first, :conditions => "page = 'indigo'")
   end
 end
