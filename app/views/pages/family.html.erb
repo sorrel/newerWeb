@@ -1,5 +1,6 @@
 <% content_for :main do %>
     <% if @page == 'family' %>
+    <p>Note that this page is still under construction!</p><br /><br />
         <p>This the website of the 'Hurwood' family, one of several in the UK and around the world.</p>
         <p>Other websites include:</p><br />
         <p><a href="http://www.hurwood.org">The Hurwood Family Tree</a>, a genealogy website from Australia, last updated in 2008.</p>
@@ -14,7 +15,9 @@
 <% end %>
 
 <% content_for :sidebar do %>
-    <p>Please note that this page is still under construction!</p></br /><br />
+    <% if @page != 'family' %>
+        <%= @art.sideColumn %>
+    <% end %>
     <p>Each person in our family gets their own page.</p><br />
     <p>Choose from:</p>
     <ul class="list">
