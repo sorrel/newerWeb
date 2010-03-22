@@ -1,13 +1,16 @@
 <% content_for :main do %>
     <% if @page == 'family' %>
-    <p>Note that this page is still under construction!</p><br /><br />
-        <p>This the website of the 'Hurwood' family, one of several in the UK and around the world.</p>
-        <p>Other websites include:</p><br />
-        <p><a href="http://www.hurwood.org">The Hurwood Family Tree</a>, a genealogy website from Australia, last updated in 2008.</p>
-        <p>
-        <p>Other sites on the net.</p><br />
-        <p>Statistics.</p><br />
-        <p>Locations.</p><br />
+        <p>This the website of a single 'Hurwood' family, one of several in the UK and around the world.</p><br />
+        <p>The name Hurwood originates in England. Looking at the <a href="http://www.nationaltrustnames.org.uk/Map.aspx?name=HURWOOD&year=1881&altyear=1998&country=GB&type=name">1881 census results</a>, it seems that the name is most common in North London, East Anglia, and in northern England. Assuming that the London and Lancashire populations likely to have increased as a result of internal migration, the name probably originates in the north of England, in central to northern Yorkshire.</p><br>
+        <p>A similar conclusion was reached on <a href="http://www.hurwood.org">The Hurwood Family Tree</a> website, a genealogy website from Australia, which suggested that the name originated around <a href="http://en.wikipedia.org/wiki/Pickhill">Pickhill</a> and <a href="http://en.wikipedia.org/wiki/Northallerton">Northallerton</a>. It is also possible that the name originated in more than one place. The name may have arrived  as a variant spelling of "Harewood", a name which shares its <a href="http://www.nationaltrustnames.org.uk/Map.aspx?name=HAREWOOD&year=1881&altyear=1998&country=GB&type=name">1881 geographical distribution</a> with the Yorkshire Hurwoods.</p><br />
+        <p>We can contribute four Hurwoods:</p>
+        <ul class="list">
+            <li><a href="/duncan">Duncan</a></li>
+            <li><a href="/heidi">Heidi</a></li>
+            <li><a href="/indigo">Indigo</a></li>
+            <li><a href="/asher">Asher</a></li>
+        </ul><br />
+
     <% else %>
         <%= @art.content %>
     <% end %>
