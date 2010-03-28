@@ -5,7 +5,7 @@
 
 
 <% content_for :sidebar do %>
-    Previous writings:<br />
+    Other writings:<br />
     <% for blog in @blogs do %>
         <%if blog != @blog %>
             <h2><%= link_to "#{blog.title}", :controller => 'blogs', :action => 'show', :id => blog.id %></h2><br />
