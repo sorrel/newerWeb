@@ -1,19 +1,15 @@
 <% content_for :main do %>
     <h2><%= @blog.title %></h2><br />
-    By <%= @blog.author %><br /><br />
     <%= @blog.post %><br />
-    Tags: <%= @blog.tags %>
 <% end %>
 
 
 <% content_for :sidebar do %>
-    <p>Please note that this page is still under construction!</p></br /><br />
-    Previous blogs:<br />
+    Previous writings:<br />
     <% for blog in @blogs do %>
         <%if blog != @blog %>
             <h2><%= link_to "#{blog.title}", :controller => 'blogs', :action => 'show', :id => blog.id %></h2><br />
-            <%= blog.author %><br />
-            <%= blog.post[0..56] %>...<br />
+            <%= blog.post[0..156] %>...<br />
         <% end %>
     <% end %>
 <% end %>

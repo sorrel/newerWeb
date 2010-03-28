@@ -10,6 +10,7 @@ ActionController::Routing::Routes.draw do |map|
   map.heidi '/heidi', :controller => 'pages', :action => 'heidi'
   map.indigo '/indigo', :controller => 'pages', :action => 'indigo'
   map.asher '/asher', :controller => 'pages', :action => 'asher'
+  map.search '/search', :controller => 'pages', :action => 'search'
   map.resources :blogs
 
   # Sample of regular route:

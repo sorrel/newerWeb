@@ -56,4 +56,12 @@ class PagesController < ApplicationController
     @page = @art.page
     render(:action => :family)
   end
+  
+  def search
+    # Here we take the given word, and search for it on the web pages
+    # we have so far
+    @searchString = params[:search]
+    @page = 'search'
+    @title = "Search Results" + @searchString if @searchString != nil
+  end
 end

@@ -4,13 +4,13 @@ class BlogsController < ApplicationController
     @blog = Blog.find(params[:id])
     @blogs = Blog.all
     @title = @blog.title
-    @page = "blogs"
+    @page = "writing"
   end
   
   def index
     @blogs = Blog.all
-    @title = "All the blogs"
-    @page = "blogs"
+    @title = "Writings"
+    @page = "writing"
   end
   
 end

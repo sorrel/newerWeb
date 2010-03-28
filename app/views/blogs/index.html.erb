@@ -1,12 +1,10 @@
 <% content_for :main do %>
-    Most recent updates first:
     <% for blog in @blogs do %>
         <h2><%= link_to "#{blog.title}", :controller => 'blogs', :action => 'show', :id => blog.id %></h2>
-        <%= blog.post[0..56] %>...<br /><br />
+        <%= blog.post[0..256] %>...<br /><br />
     <% end %>
 <% end %>
 
 <% content_for :sidebar do %>
-    <p>Please note that this page is still under construction!</p></br /><br />
-    Here is the latest content.
+    <p>This is a selection of occasional writing, by <a href="/duncan">Duncan</a>.</p><br /> 
 <% end %>
