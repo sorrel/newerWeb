@@ -1,15 +1,15 @@
 <% content_for :main do %>
-    <h2><%= @blog.title %></h2><br />
+    <h1><%= @blog.title %></h1><br />
     <%= @blog.post %><br />
 <% end %>
 
 
 <% content_for :sidebar do %>
-    Other writings:<br />
+    Other writings include:<br />
     <% for blog in @blogs do %>
         <%if blog != @blog %>
-            <h2><%= link_to "#{blog.title}", :controller => 'blogs', :action => 'show', :id => blog.id %></h2><br />
-            <%= blog.post[0..156] %>...<br />
+            <h2><%= link_to "#{blog.title}", :controller => 'blogs', :action => 'show', :id => blog.id %></h2>
+            <%= blog.post[0..160] %>...<br /><br />
         <% end %>
     <% end %>
 <% end %>
