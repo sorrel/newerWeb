@@ -44,8 +44,8 @@ body {
   padding: 8px;
   font-weight: bolder;
   float: left;
-  font-family: "Baskerville", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Helvetica, Verdana, Arial, sans-serif;
-  font-size: 150%;
+  font-family: "Baskerville", "Bookman Old Style", "Palatino Linotype", "Palatino", "Century Schoolbook", "Gentium", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Helvetica", "Verdana", "Arial", sans-serif;
+  font-size: 140%;
 }
 #title a {
   text-decoration: none;
