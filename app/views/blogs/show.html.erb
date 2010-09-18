@@ -1,6 +1,6 @@
 <% content_for :main do %>
     <h1><%= @blog.title %></h1><br />
-    <%= @blog.post %><br />
+    <%= @blog.post.html_safe %><br />
 <% end %>
 
 
@@ -9,7 +9,7 @@
     <% for blog in @blogs do %>
         <%if blog != @blog %>
             <h2><%= link_to "#{blog.title}", :controller => 'blogs', :action => 'show', :id => blog.id %></h2>
-            <%= blog.post[0..160] %>...<br /><br />
+            <%= blog.post[0..160].html_safe %>...<br /><br />
         <% end %>
     <% end %>
 <% end %>

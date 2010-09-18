@@ -1,13 +1,13 @@
 <div id="header" class="group">
     <div id="title">
-        <%= link_to "the<em>Hurwoods</em>.net", root_url %>
+        <%= link_to "the<em>Hurwoods</em>.net".html_safe, '/' %>
     </div>
     <div id="nav" class="group" >
-        <%= '<ul id="' + @page + '">' %>
-            <li id="t-home"><%= link_to "<strong>Home</strong>", root_url %></li>
-            <li id="t-blog"><%= link_to "<strong>Writing</strong>", blogs_url %></li>
-            <li id="t-family"><%= link_to "<strong>Family</strong>", family_url %></li>
-            <li id="t-about"><%= link_to "<strong>About</strong>", about_url %></li>
+        <%= '<ul id="'.html_safe + @page + '">'.html_safe %>
+            <li id="t-home"><%= link_to "<strong>Home</strong>".html_safe, '/' %></li>
+            <li id="t-blog"><%= link_to "<strong>Writing</strong>".html_safe, '/blogs' %></li>
+            <li id="t-family"><%= link_to "<strong>Family</strong>".html_safe, '/family' %></li>
+            <li id="t-about"><%= link_to "<strong>About</strong>".html_safe, '/about' %></li>
         </ul>
     </div>
 </div>

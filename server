@@ -1,0 +1,1043 @@
+Script started on Sat Sep 18 20:47:58 2010
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps/testRails3/hurwoodweb[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps/testRails3/hurwoodweb >[mraui[K[Kils server
+=> Booting Mongrel
+=> Rails 3.0.0 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 18 20:48:15 +0100 2010
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.3ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered pages/home.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at Sat Sep 18 20:48:17 +0100 2010
+  Processing by BlogsController#index as HTML
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mBlog Load (0.3ms)[0m  SELECT "blogs".* FROM "blogs"
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered blogs/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 42ms (Views: 21.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/duncan" for 127.0.0.1 at Sat Sep 18 20:48:19 +0100 2010
+  Processing by PagesController#duncan as HTML
+  [1m[36mArticle Load (0.5ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE (page = 'duncan') LIMIT 1[0m
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.3ms)
+Rendered pages/family.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 25ms (Views: 16.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/family" for 127.0.0.1 at Sat Sep 18 20:48:21 +0100 2010
+  Processing by PagesController#family as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/family.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 16ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/family" for 127.0.0.1 at Sat Sep 18 20:54:49 +0100 2010
+  Processing by PagesController#family as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/family.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 18 20:54:50 +0100 2010
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.2ms)
+Rendered layouts/_header.html.erb (1.0ms)
+Rendered layouts/_main.html.erb (0.5ms)
+Rendered layouts/_sidebar.html.erb (0.5ms)
+Rendered pages/home.html.erb within layouts/application (18.6ms)
+Completed 200 OK in 40ms (Views: 38.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 18 20:54:54 +0100 2010
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.6ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.3ms)
+Rendered pages/home.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+^CExiting
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps/testRails3/hurwoodweb[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps/testRails3/hurwoodweb >[mrails server
+=> Booting Mongrel
+=> Rails 3.0.0 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 18 20:55:10 +0100 2010
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_main.html.erb (0.4ms)
+Rendered layouts/_sidebar.html.erb (0.4ms)
+Rendered pages/home.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 18 20:55:42 +0100 2010
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.3ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered pages/home.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 18 20:56:46 +0100 2010
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (1.3ms)
+Rendered layouts/_main.html.erb (0.5ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered pages/home.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 18 20:56:48 +0100 2010
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.6ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.3ms)
+Rendered pages/home.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 18 20:56:51 +0100 2010
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered pages/home.html.erb within layouts/application (54.5ms)
+Completed 200 OK in 61ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 18 20:56:52 +0100 2010
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.6ms)
+Rendered pages/home.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+^CExiting
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps/testRails3/hurwoodweb[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps/testRails3/hurwoodweb >[mrails server
+=> Booting Mongrel
+=> Rails 3.0.0 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 18 20:57:01 +0100 2010
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered pages/home.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 18 20:57:02 +0100 2010
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.6ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered pages/home.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 18 20:57:42 +0100 2010
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.6ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.3ms)
+Rendered pages/home.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 18 20:57:43 +0100 2010
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.3ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered pages/home.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 18 20:57:43 +0100 2010
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered pages/home.html.erb within layouts/application (55.4ms)
+Completed 200 OK in 61ms (Views: 60.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 18 20:57:55 +0100 2010
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.6ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered pages/home.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 18 20:57:56 +0100 2010
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.2ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.3ms)
+Rendered pages/home.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 18 20:57:56 +0100 2010
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.2ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.4ms)
+Rendered pages/home.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 18 20:58:23 +0100 2010
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered pages/home.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 15ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at Sat Sep 18 20:58:26 +0100 2010
+  Processing by PagesController#about as HTML
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles" WHERE (title = 'About the site') LIMIT 1
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/about.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 39ms (Views: 15.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/family" for 127.0.0.1 at Sat Sep 18 20:58:27 +0100 2010
+  Processing by PagesController#family as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/family.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at Sat Sep 18 20:58:28 +0100 2010
+  Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (1.2ms)[0m  [1mSELECT "blogs".* FROM "blogs"[0m
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered blogs/index.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 77ms (Views: 69.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 18 20:58:29 +0100 2010
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered pages/home.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/duncan" for 127.0.0.1 at Sat Sep 18 20:58:31 +0100 2010
+  Processing by PagesController#duncan as HTML
+  [1m[35mArticle Load (0.5ms)[0m  SELECT "articles".* FROM "articles" WHERE (page = 'duncan') LIMIT 1
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered pages/family.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 25ms (Views: 16.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/family" for 127.0.0.1 at Sat Sep 18 20:58:57 +0100 2010
+  Processing by PagesController#family as HTML
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/family.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/family" for 127.0.0.1 at Sat Sep 18 20:59:01 +0100 2010
+  Processing by PagesController#family as HTML
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/family.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/duncan" for 127.0.0.1 at Sat Sep 18 20:59:02 +0100 2010
+  Processing by PagesController#duncan as HTML
+  [1m[36mArticle Load (0.5ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE (page = 'duncan') LIMIT 1[0m
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/family.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 24ms (Views: 16.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/duncan" for 127.0.0.1 at Sat Sep 18 20:59:24 +0100 2010
+  Processing by PagesController#duncan as HTML
+  [1m[35mArticle Load (0.5ms)[0m  SELECT "articles".* FROM "articles" WHERE (page = 'duncan') LIMIT 1
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_main.html.erb (0.3ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/family.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 24ms (Views: 15.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/about" for 127.0.0.1 at Sat Sep 18 21:00:20 +0100 2010
+  Processing by PagesController#about as HTML
+  [1m[36mArticle Load (0.8ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE (title = 'About the site') LIMIT 1[0m
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (0.6ms)
+Rendered layouts/_main.html.erb (0.3ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/about.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 26ms (Views: 16.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/family" for 127.0.0.1 at Sat Sep 18 21:00:35 +0100 2010
+  Processing by PagesController#family as HTML
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.3ms)
+Rendered pages/family.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 17ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at Sat Sep 18 21:00:36 +0100 2010
+  Processing by PagesController#about as HTML
+  [1m[35mArticle Load (0.4ms)[0m  SELECT "articles".* FROM "articles" WHERE (title = 'About the site') LIMIT 1
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/about.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 28ms (Views: 18.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/design" for 127.0.0.1 at Sat Sep 18 21:00:38 +0100 2010
+  Processing by PagesController#design as HTML
+  [1m[36mArticle Load (0.9ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE (title = 'Coding and Design') LIMIT 1[0m
+Rendered layouts/_stylesheets.html.erb (1.6ms)
+Rendered layouts/_header.html.erb (0.8ms)
+Rendered layouts/_main.html.erb (0.5ms)
+Rendered layouts/_sidebar.html.erb (0.5ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered pages/about.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 40ms (Views: 25.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/history" for 127.0.0.1 at Sat Sep 18 21:00:40 +0100 2010
+  Processing by PagesController#history as HTML
+  [1m[35mArticle Load (0.4ms)[0m  SELECT "articles".* FROM "articles" WHERE (title = 'Site History') LIMIT 1
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/about.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 24ms (Views: 15.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at Sat Sep 18 21:00:46 +0100 2010
+  Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (0.5ms)[0m  [1mSELECT "blogs".* FROM "blogs"[0m
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered blogs/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 26ms (Views: 20.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at Sat Sep 18 21:01:21 +0100 2010
+  Processing by BlogsController#index as HTML
+  [1m[35mBlog Load (0.5ms)[0m  SELECT "blogs".* FROM "blogs"
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered blogs/index.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 26ms (Views: 20.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at Sat Sep 18 21:01:23 +0100 2010
+  Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (0.6ms)[0m  [1mSELECT "blogs".* FROM "blogs"[0m
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered blogs/index.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 26ms (Views: 20.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/blogs/4" for 127.0.0.1 at Sat Sep 18 21:01:25 +0100 2010
+  Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mBlog Load (0.2ms)[0m  SELECT "blogs".* FROM "blogs" WHERE ("blogs"."id" = 4) LIMIT 1
+  [1m[36mBlog Load (0.3ms)[0m  [1mSELECT "blogs".* FROM "blogs"[0m
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered blogs/show.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 75ms (Views: 16.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/blogs/1" for 127.0.0.1 at Sat Sep 18 21:01:29 +0100 2010
+  Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBlog Load (0.2ms)[0m  SELECT "blogs".* FROM "blogs" WHERE ("blogs"."id" = 1) LIMIT 1
+  [1m[36mBlog Load (0.3ms)[0m  [1mSELECT "blogs".* FROM "blogs"[0m
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered blogs/show.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 26ms (Views: 16.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/blogs/3" for 127.0.0.1 at Sat Sep 18 21:01:32 +0100 2010
+  Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mBlog Load (0.2ms)[0m  SELECT "blogs".* FROM "blogs" WHERE ("blogs"."id" = 3) LIMIT 1
+  [1m[36mBlog Load (0.3ms)[0m  [1mSELECT "blogs".* FROM "blogs"[0m
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered blogs/show.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 29ms (Views: 19.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/blogs/4" for 127.0.0.1 at Sat Sep 18 21:01:33 +0100 2010
+  Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mBlog Load (0.2ms)[0m  SELECT "blogs".* FROM "blogs" WHERE ("blogs"."id" = 4) LIMIT 1
+  [1m[36mBlog Load (0.3ms)[0m  [1mSELECT "blogs".* FROM "blogs"[0m
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered blogs/show.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 75ms (Views: 16.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/blogs/1" for 127.0.0.1 at Sat Sep 18 21:01:35 +0100 2010
+  Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBlog Load (0.2ms)[0m  SELECT "blogs".* FROM "blogs" WHERE ("blogs"."id" = 1) LIMIT 1
+  [1m[36mBlog Load (0.3ms)[0m  [1mSELECT "blogs".* FROM "blogs"[0m
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.3ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered blogs/show.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 26ms (Views: 17.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at Sat Sep 18 21:01:37 +0100 2010
+  Processing by BlogsController#index as HTML
+  [1m[35mBlog Load (0.6ms)[0m  SELECT "blogs".* FROM "blogs"
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.6ms)
+Rendered layouts/_main.html.erb (0.3ms)
+Rendered layouts/_sidebar.html.erb (0.3ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered blogs/index.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 27ms (Views: 21.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at Sat Sep 18 21:01:51 +0100 2010
+  Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (0.5ms)[0m  [1mSELECT "blogs".* FROM "blogs"[0m
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered blogs/index.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 27ms (Views: 21.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 18 21:01:52 +0100 2010
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (0.6ms)
+Rendered layouts/_main.html.erb (0.4ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered pages/home.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/heidi" for 127.0.0.1 at Sat Sep 18 21:01:53 +0100 2010
+  Processing by PagesController#heidi as HTML
+  [1m[35mArticle Load (0.5ms)[0m  SELECT "articles".* FROM "articles" WHERE (page = 'heidi') LIMIT 1
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/family.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 23ms (Views: 15.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/heidi" for 127.0.0.1 at Sat Sep 18 21:02:07 +0100 2010
+  Processing by PagesController#heidi as HTML
+  [1m[36mArticle Load (0.5ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE (page = 'heidi') LIMIT 1[0m
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/family.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 24ms (Views: 16.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/indigo" for 127.0.0.1 at Sat Sep 18 21:02:09 +0100 2010
+  Processing by PagesController#indigo as HTML
+  [1m[35mArticle Load (0.5ms)[0m  SELECT "articles".* FROM "articles" WHERE (page = 'indigo') LIMIT 1
+Rendered layouts/_stylesheets.html.erb (58.2ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/family.html.erb within layouts/application (68.2ms)
+Completed 200 OK in 84ms (Views: 74.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/asher" for 127.0.0.1 at Sat Sep 18 21:02:10 +0100 2010
+  Processing by PagesController#asher as HTML
+  [1m[36mArticle Load (0.5ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE (page = 'asher') LIMIT 1[0m
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/family.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 25ms (Views: 16.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/asher" for 127.0.0.1 at Sat Sep 18 21:02:10 +0100 2010
+  Processing by PagesController#asher as HTML
+  [1m[35mArticle Load (0.6ms)[0m  SELECT "articles".* FROM "articles" WHERE (page = 'asher') LIMIT 1
+Rendered layouts/_stylesheets.html.erb (1.1ms)
+Rendered layouts/_header.html.erb (0.6ms)
+Rendered layouts/_main.html.erb (0.3ms)
+Rendered layouts/_sidebar.html.erb (0.3ms)
+Rendered layouts/_footer.html.erb (0.3ms)
+Rendered pages/family.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 31ms (Views: 20.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/asher" for 127.0.0.1 at Sat Sep 18 21:02:10 +0100 2010
+  Processing by PagesController#asher as HTML
+  [1m[36mArticle Load (0.5ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE (page = 'asher') LIMIT 1[0m
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/family.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 25ms (Views: 16.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/asher" for 127.0.0.1 at Sat Sep 18 21:02:10 +0100 2010
+  Processing by PagesController#asher as HTML
+  [1m[35mArticle Load (0.5ms)[0m  SELECT "articles".* FROM "articles" WHERE (page = 'asher') LIMIT 1
+Rendered layouts/_stylesheets.html.erb (1.2ms)
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered layouts/_main.html.erb (0.9ms)
+Rendered layouts/_sidebar.html.erb (0.3ms)
+Rendered layouts/_footer.html.erb (0.3ms)
+Rendered pages/family.html.erb within layouts/application (21.3ms)
+Completed 200 OK in 87ms (Views: 26.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/duncan" for 127.0.0.1 at Sat Sep 18 21:02:11 +0100 2010
+  Processing by PagesController#duncan as HTML
+  [1m[36mArticle Load (0.5ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE (page = 'duncan') LIMIT 1[0m
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/family.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 24ms (Views: 15.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/indigo" for 127.0.0.1 at Sat Sep 18 21:02:13 +0100 2010
+  Processing by PagesController#indigo as HTML
+  [1m[35mArticle Load (0.5ms)[0m  SELECT "articles".* FROM "articles" WHERE (page = 'indigo') LIMIT 1
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/family.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 24ms (Views: 15.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/asher" for 127.0.0.1 at Sat Sep 18 21:02:13 +0100 2010
+  Processing by PagesController#asher as HTML
+  [1m[36mArticle Load (0.5ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE (page = 'asher') LIMIT 1[0m
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/family.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 25ms (Views: 15.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at Sat Sep 18 21:02:15 +0100 2010
+  Processing by BlogsController#index as HTML
+  [1m[35mBlog Load (0.5ms)[0m  SELECT "blogs".* FROM "blogs"
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.3ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered blogs/index.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 26ms (Views: 20.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 18 21:02:16 +0100 2010
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.3ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered pages/home.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 18 21:02:17 +0100 2010
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered pages/home.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at Sat Sep 18 21:02:18 +0100 2010
+  Processing by PagesController#about as HTML
+  [1m[36mArticle Load (0.5ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE (title = 'About the site') LIMIT 1[0m
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (0.6ms)
+Rendered layouts/_main.html.erb (0.3ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/about.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 26ms (Views: 16.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/history" for 127.0.0.1 at Sat Sep 18 21:02:20 +0100 2010
+  Processing by PagesController#history as HTML
+  [1m[35mArticle Load (0.4ms)[0m  SELECT "articles".* FROM "articles" WHERE (title = 'Site History') LIMIT 1
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.3ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/about.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 74ms (Views: 15.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 18 21:02:22 +0100 2010
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.4ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered pages/home.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at Sat Sep 18 21:02:22 +0100 2010
+  Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (0.8ms)[0m  [1mSELECT "blogs".* FROM "blogs"[0m
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (0.6ms)
+Rendered layouts/_main.html.erb (0.3ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered blogs/index.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 32ms (Views: 23.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/family" for 127.0.0.1 at Sat Sep 18 21:02:23 +0100 2010
+  Processing by PagesController#family as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered pages/family.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 17ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at Sat Sep 18 21:02:24 +0100 2010
+  Processing by PagesController#about as HTML
+  [1m[35mArticle Load (0.4ms)[0m  SELECT "articles".* FROM "articles" WHERE (title = 'About the site') LIMIT 1
+Rendered layouts/_stylesheets.html.erb (1.2ms)
+Rendered layouts/_header.html.erb (0.6ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/about.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 81ms (Views: 70.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Sep 18 21:02:33 +0100 2010
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.6ms)
+Rendered layouts/_main.html.erb (0.3ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered pages/home.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at Sat Sep 18 21:02:34 +0100 2010
+  Processing by PagesController#about as HTML
+  [1m[36mArticle Load (0.4ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE (title = 'About the site') LIMIT 1[0m
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (0.6ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/about.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 24ms (Views: 16.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/design" for 127.0.0.1 at Sat Sep 18 21:02:35 +0100 2010
+  Processing by PagesController#design as HTML
+  [1m[35mArticle Load (0.5ms)[0m  SELECT "articles".* FROM "articles" WHERE (title = 'Coding and Design') LIMIT 1
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/about.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 24ms (Views: 15.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/design" for 127.0.0.1 at Sat Sep 18 21:02:40 +0100 2010
+  Processing by PagesController#design as HTML
+  [1m[36mArticle Load (0.6ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE (title = 'Coding and Design') LIMIT 1[0m
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (0.6ms)
+Rendered layouts/_main.html.erb (0.2ms)
+Rendered layouts/_sidebar.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/about.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 75ms (Views: 66.6ms | ActiveRecord: 0.6ms)
+^CExiting
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps/testRails3/hurwoodweb[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps/testRails3/hurwoodweb >[ml
+total 136
+drwxr-xr-x  11 duncan  duncan    374 13 Jul 18:28 [34mpublic[m[m
+drwxr-xr-x   3 duncan  duncan    102 18 Sep 17:12 [34mvendor[m[m
+drwxr-xr-x   6 duncan  duncan    204 18 Sep 17:12 [34mtmp[m[m
+drwxr-xr-x   8 duncan  duncan    272 18 Sep 17:12 [34mtest[m[m
+drwxr-xr-x   3 duncan  duncan    102 18 Sep 17:12 [34mscript[m[m
+drwxr-xr-x   6 duncan  duncan    204 18 Sep 17:12 [34mlog[m[m
+drwxr-xr-x   3 duncan  duncan    102 18 Sep 17:12 [34mlib[m[m
+drwxr-xr-x   3 duncan  duncan    102 18 Sep 17:12 [34mdoc[m[m
+-rw-r--r--   1 duncan  duncan    160 18 Sep 17:12 config.ru
+drwxr-xr-x   7 duncan  duncan    238 18 Sep 17:12 [34mapp[m[m
+-rw-r--r--   1 duncan  duncan    270 18 Sep 17:12 Rakefile
+-rw-r--r--   1 duncan  duncan   9130 18 Sep 17:12 README
+drwxr-xr-x  10 duncan  duncan    340 18 Sep 19:44 [34mconfig[m[m
+drwxr-xr-x   7 duncan  duncan    238 18 Sep 19:51 [34mdb[m[m
+-rw-r--r--   1 duncan  duncan    703 18 Sep 20:47 Gemfile
+-rw-r--r--   1 duncan  duncan   1882 18 Sep 20:48 Gemfile.lock
+-rw-r--r--   1 duncan  duncan  37772 18 Sep 21:02 server
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps/testRails3/hurwoodweb[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps/testRails3/hurwoodweb >[mcd ../..
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps >[ml
+total 80
+drwxr-xr-x  14 duncan  duncan    476 25 Feb  2010 [34mmercurial_hurwoodweb[m[m
+-rw-r--r--@  1 duncan  duncan   8152 13 Mar  2010 oldweb.tmproj
+drwxr-xr-x  20 duncan  duncan    680 13 Jul 20:39 [34mtutorial[m[m
+-rw-r--r--@  1 duncan  duncan   5366 13 Jul 20:49 tutorial.tmproj
+-rw-r--r--@  1 duncan  duncan  21289 18 Sep 13:24 hurwoodweb.tmproj
+drwxr-xr-x   3 duncan  duncan    102 18 Sep 17:12 [34mtestRails3[m[m
+drwxr-xr-x  19 duncan  duncan    646 18 Sep 17:16 [34mhurwoodweb[m[m
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps >[mcd hurwoodweb
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps/hurwoodweb[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps/hurwoodweb >[ml
+total 16
+drwxr-xr-x   3 duncan  duncan  102 13 Jul 18:28 [34mlib[m[m
+drwxr-xr-x   3 duncan  duncan  102 13 Jul 18:28 [34mdoc[m[m
+drwxr-xr-x   6 duncan  duncan  204 13 Jul 18:28 [34mapp[m[m
+-rw-r--r--@  1 duncan  duncan  307 13 Jul 18:28 Rakefile
+drwxr-xr-x   3 duncan  duncan  102 13 Jul 18:28 [34mvendor[m[m
+drwxr-xr-x   7 duncan  duncan  238 13 Jul 18:28 [34mtest[m[m
+drwxr-xr-x   9 duncan  duncan  306 13 Jul 18:28 [34mspec[m[m
+drwxr-xr-x  11 duncan  duncan  374 13 Jul 18:28 [34mpublic[m[m
+drwxr-xr-x   6 duncan  duncan  204 13 Jul 20:49 [34mtmp[m[m
+drwxr-xr-x   3 duncan  duncan  102 13 Jul 20:49 [34mlog[m[m
+-rw-r--r--@  1 duncan  duncan  541 14 Jul 20:39 README
+drwxr-xr-x   7 duncan  duncan  238 17 Sep 14:05 [34mdb[m[m
+drwxr-xr-x   9 duncan  duncan  306 18 Sep 17:01 [34mconfig[m[m
+drwxr-xr-x  13 duncan  duncan  442 18 Sep 17:01 [34mscript[m[m
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps/hurwoodweb[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps/hurwoodweb >[mgit status
+# On branch master
+# Your branch is ahead of 'origin/master' by 1 commit.
+#
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   .gitignore
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps/hurwoodweb[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps/hurwoodweb >[mgit add .
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps/hurwoodweb[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps/hurwoodweb >[mgit commit -m "D[KFinal 2.3.9 rails edition"
+[master ee976da] Final 2.3.9 rails edition
+ 1 files changed, 2 insertions(+), 1 deletions(-)
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps/hurwoodweb[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps/hurwoodweb >[mgit push
+Counting objects: 31, done.
+Delta compression using up to 4 threads.
+Compressing objects:   4% (1/25)   Compressing objects:   8% (2/25)   Compressing objects:  12% (3/25)   Compressing objects:  16% (4/25)   Compressing objects:  20% (5/25)   Compressing objects:  24% (6/25)   Compressing objects:  28% (7/25)   Compressing objects:  32% (8/25)   Compressing objects:  36% (9/25)   Compressing objects:  40% (10/25)   Compressing objects:  44% (11/25)   Compressing objects:  48% (12/25)   Compressing objects:  52% (13/25)   Compressing objects:  56% (14/25)   Compressing objects:  60% (15/25)   Compressing objects:  64% (16/25)   Compressing objects:  68% (17/25)   Compressing objects:  72% (18/25)   Compressing objects:  76% (19/25)   Compressing objects:  80% (20/25)   Compressing objects:  84% (21/25)   Compressing objects:  88% (22/25)   Compressing objects:  92% (23/25)   Compressing objects:  96% (24/25)   Compressing objects: 100% (25/25)   Compressing objects: 100% (25/25), done.
+Writing objects:   3% (1/27)   Writing objects:   7% (2/27)   Writing objects:  11% (3/27)   Writing objects:  14% (4/27)   Writing objects:  18% (5/27)   Writing objects:  22% (6/27)   Writing objects:  25% (7/27)   Writing objects:  29% (8/27)   Writing objects:  33% (9/27)   Writing objects:  37% (10/27)   Writing objects:  40% (11/27)   Writing objects:  44% (12/27)   Writing objects:  48% (13/27)   Writing objects:  51% (14/27)   Writing objects:  55% (15/27)   Writing objects:  59% (16/27)   Writing objects:  62% (17/27)   Writing objects:  66% (18/27)   Writing objects:  70% (19/27)   Writing objects:  74% (20/27)   Writing objects:  77% (21/27)   Writing objects:  81% (22/27)   Writing objects:  85% (23/27)   Writing objects:  88% (24/27)   Writing objects:  92% (25/27)   Writing objects:  96% (26/27)   Writing objects: 100% (27/27)   Writing objects: 100% (27/27), 16.37 KiB, done.
+Total 27 (delta 3), reused 0 (delta 0)
+To git@github.com:sorrel/hurwood.git
+   a8428da..ee976da  master -> master
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps/hurwoodweb[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps/hurwoodweb >[mgit push heroku
+Counting objects: 31, done.
+Delta compression using up to 4 threads.
+Compressing objects:   4% (1/25)   Compressing objects:   8% (2/25)   Compressing objects:  12% (3/25)   Compressing objects:  16% (4/25)   Compressing objects:  20% (5/25)   Compressing objects:  24% (6/25)   Compressing objects:  28% (7/25)   Compressing objects:  32% (8/25)   Compressing objects:  36% (9/25)   Compressing objects:  40% (10/25)   Compressing objects:  44% (11/25)   Compressing objects:  48% (12/25)   Compressing objects:  52% (13/25)   Compressing objects:  56% (14/25)   Compressing objects:  60% (15/25)   Compressing objects:  64% (16/25)   Compressing objects:  68% (17/25)   Compressing objects:  72% (18/25)   Compressing objects:  76% (19/25)   Compressing objects:  80% (20/25)   Compressing objects:  84% (21/25)   Compressing objects:  88% (22/25)   Compressing objects:  92% (23/25)   Compressing objects:  96% (24/25)   Compressing objects: 100% (25/25)   Compressing objects: 100% (25/25), done.
+Writing objects:   3% (1/27)   Writing objects:   7% (2/27)   Writing objects:  11% (3/27)   Writing objects:  14% (4/27)   Writing objects:  18% (5/27)   Writing objects:  22% (6/27)   Writing objects:  25% (7/27)   Writing objects:  29% (8/27)   Writing objects:  33% (9/27)   Writing objects:  37% (10/27)   Writing objects:  40% (11/27)   Writing objects:  44% (12/27)   Writing objects:  48% (13/27)   Writing objects:  51% (14/27)   Writing objects:  55% (15/27)   Writing objects:  59% (16/27)   Writing objects:  62% (17/27)   Writing objects:  66% (18/27)   Writing objects:  70% (19/27)   Writing objects:  74% (20/27)   Writing objects:  77% (21/27)   Writing objects:  81% (22/27)   Writing objects:  85% (23/27)   Writing objects:  88% (24/27)   Writing objects:  92% (25/27)   Writing objects:  96% (26/27)   Writing objects: 100% (27/27)   Writing objects: 100% (27/27), 16.37 KiB, done.
+Total 27 (delta 3), reused 0 (delta 0)
+
+-----> Heroku receiving push
+-----> Rails app detected
+       Compiled slug size is 10.9MB
+-----> Launching.... done
+       http://www.thehurwoods.net deployed to Heroku
+
+To git@heroku.com:hurwood.git
+   a8428da..ee976da  master -> master
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps/hurwoodweb[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps/hurwoodweb >[mls -l
+total 16
+-rw-r--r--@  1 duncan  duncan  541 14 Jul 20:39 README
+-rw-r--r--@  1 duncan  duncan  307 13 Jul 18:28 Rakefile
+drwxr-xr-x   6 duncan  duncan  204 13 Jul 18:28 [34mapp[m[m
+drwxr-xr-x   9 duncan  duncan  306 18 Sep 17:01 [34mconfig[m[m
+drwxr-xr-x   7 duncan  duncan  238 17 Sep 14:05 [34mdb[m[m
+drwxr-xr-x   3 duncan  duncan  102 13 Jul 18:28 [34mdoc[m[m
+drwxr-xr-x   3 duncan  duncan  102 13 Jul 18:28 [34mlib[m[m
+drwxr-xr-x   3 duncan  duncan  102 13 Jul 20:49 [34mlog[m[m
+drwxr-xr-x  11 duncan  duncan  374 13 Jul 18:28 [34mpublic[m[m
+drwxr-xr-x  13 duncan  duncan  442 18 Sep 17:01 [34mscript[m[m
+drwxr-xr-x   9 duncan  duncan  306 13 Jul 18:28 [34mspec[m[m
+drwxr-xr-x   7 duncan  duncan  238 13 Jul 18:28 [34mtest[m[m
+drwxr-xr-x   6 duncan  duncan  204 13 Jul 20:49 [34mtmp[m[m
+drwxr-xr-x   3 duncan  duncan  102 13 Jul 18:28 [34mvendor[m[m
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps/hurwoodweb[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps/hurwoodweb >[mla
+total 32
+drwxr-xr-x  13 duncan  duncan  442 18 Sep 21:03 [34m.git[m[m
+drwxr-xr-x  19 duncan  duncan  646 18 Sep 17:16 [34m.[m[m
+-rw-r--r--   1 duncan  duncan   82 18 Sep 17:16 .gitignore
+drwxr-xr-x  13 duncan  duncan  442 18 Sep 17:01 [34mscript[m[m
+drwxr-xr-x   9 duncan  duncan  306 18 Sep 17:01 [34mconfig[m[m
+-rw-r--r--   1 duncan  duncan   23 18 Sep 13:54 .gems
+drwxr-xr-x   9 duncan  duncan  306 18 Sep 13:32 [34m..[m[m
+drwxr-xr-x   7 duncan  duncan  238 17 Sep 14:05 [34mdb[m[m
+-rw-r--r--@  1 duncan  duncan  541 14 Jul 20:39 README
+drwxr-xr-x   3 duncan  duncan  102 13 Jul 20:49 [34mlog[m[m
+drwxr-xr-x   6 duncan  duncan  204 13 Jul 20:49 [34mtmp[m[m
+drwxr-xr-x  11 duncan  duncan  374 13 Jul 18:28 [34mpublic[m[m
+drwxr-xr-x   9 duncan  duncan  306 13 Jul 18:28 [34mspec[m[m
+drwxr-xr-x   7 duncan  duncan  238 13 Jul 18:28 [34mtest[m[m
+drwxr-xr-x   3 duncan  duncan  102 13 Jul 18:28 [34mvendor[m[m
+-rw-r--r--@  1 duncan  duncan  307 13 Jul 18:28 Rakefile
+drwxr-xr-x   6 duncan  duncan  204 13 Jul 18:28 [34mapp[m[m
+drwxr-xr-x   3 duncan  duncan  102 13 Jul 18:28 [34mdoc[m[m
+drwxr-xr-x   3 duncan  duncan  102 13 Jul 18:28 [34mlib[m[m
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps/hurwoodweb[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps/hurwoodweb >[mrm .[K.gems
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps/hurwoodweb[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps/hurwoodweb >[mrm *
+rm: app: is a directory
+rm: config: is a directory
+rm: db: is a directory
+rm: doc: is a directory
+rm: lib: is a directory
+rm: log: is a directory
+rm: public: is a directory
+rm: script: is a directory
+rm: spec: is a directory
+rm: test: is a directory
+rm: tmp: is a directory
+rm: vendor: is a directory
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps/hurwoodweb[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps/hurwoodweb >[ml
+total 0
+drwxr-xr-x   3 duncan  duncan  102 13 Jul 18:28 [34mlib[m[m
+drwxr-xr-x   3 duncan  duncan  102 13 Jul 18:28 [34mdoc[m[m
+drwxr-xr-x   6 duncan  duncan  204 13 Jul 18:28 [34mapp[m[m
+drwxr-xr-x   3 duncan  duncan  102 13 Jul 18:28 [34mvendor[m[m
+drwxr-xr-x   7 duncan  duncan  238 13 Jul 18:28 [34mtest[m[m
+drwxr-xr-x   9 duncan  duncan  306 13 Jul 18:28 [34mspec[m[m
+drwxr-xr-x  11 duncan  duncan  374 13 Jul 18:28 [34mpublic[m[m
+drwxr-xr-x   6 duncan  duncan  204 13 Jul 20:49 [34mtmp[m[m
+drwxr-xr-x   3 duncan  duncan  102 13 Jul 20:49 [34mlog[m[m
+drwxr-xr-x   7 duncan  duncan  238 17 Sep 14:05 [34mdb[m[m
+drwxr-xr-x   9 duncan  duncan  306 18 Sep 17:01 [34mconfig[m[m
+drwxr-xr-x  13 duncan  duncan  442 18 Sep 17:01 [34mscript[m[m
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps/hurwoodweb[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps/hurwoodweb >[mrm -rf lib
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps/hurwoodweb[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps/hurwoodweb >[mrm -rf doc
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps/hurwoodweb[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps/hurwoodweb >[mrm -rf app
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps/hurwoodweb[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps/hurwoodweb >[mrm -rf vendor/
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps/hurwoodweb[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps/hurwoodweb >[mls
+[34mconfig[m[m [34mdb[m[m     [34mlog[m[m    [34mpublic[m[m [34mscript[m[m [34mspec[m[m   [34mtest[m[m   [34mtmp[m[m
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps/hurwoodweb[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps/hurwoodweb >[mrm -rf test/
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps/hurwoodweb[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps/hurwoodweb >[mrm -rf tem
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps/hurwoodweb[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps/hurwoodweb >[mrm -rf temp
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps/hurwoodweb[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps/hurwoodweb >[ml
+total 0
+drwxr-xr-x   9 duncan  duncan  306 13 Jul 18:28 [34mspec[m[m
+drwxr-xr-x  11 duncan  duncan  374 13 Jul 18:28 [34mpublic[m[m
+drwxr-xr-x   6 duncan  duncan  204 13 Jul 20:49 [34mtmp[m[m
+drwxr-xr-x   3 duncan  duncan  102 13 Jul 20:49 [34mlog[m[m
+drwxr-xr-x   7 duncan  duncan  238 17 Sep 14:05 [34mdb[m[m
+drwxr-xr-x   9 duncan  duncan  306 18 Sep 17:01 [34mconfig[m[m
+drwxr-xr-x  13 duncan  duncan  442 18 Sep 17:01 [34mscript[m[m
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps/hurwoodweb[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps/hurwoodweb >[mrm -rf spec/
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps/hurwoodweb[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps/hurwoodweb >[mrm -rf public/
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps/hurwoodweb[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps/hurwoodweb >[mrm -rp[Kf r[Ktmp/
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps/hurwoodweb[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps/hurwoodweb >[ml
+total 0
+drwxr-xr-x   3 duncan  duncan  102 13 Jul 20:49 [34mlog[m[m
+drwxr-xr-x   7 duncan  duncan  238 17 Sep 14:05 [34mdb[m[m
+drwxr-xr-x   9 duncan  duncan  306 18 Sep 17:01 [34mconfig[m[m
+drwxr-xr-x  13 duncan  duncan  442 18 Sep 17:01 [34mscript[m[m
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps/hurwoodweb[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps/hurwoodweb >[mrm -rf log/
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps/hurwoodweb[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps/hurwoodweb >[mrm -rf db/
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps/hurwoodweb[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps/hurwoodweb >[mrm -rf config/
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps/hurwoodweb[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps/hurwoodweb >[mrm -rf script/
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps/hurwoodweb[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps/hurwoodweb >[ml
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps/hurwoodweb[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps/hurwoodweb >[mcd ..
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps >[mcd testRails3/hurwoodweb/
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps/testRails3/hurwoodweb[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps/testRails3/hurwoodweb >[ml
+total 168
+drwxr-xr-x  11 duncan  duncan    374 13 Jul 18:28 [34mpublic[m[m
+drwxr-xr-x   3 duncan  duncan    102 18 Sep 17:12 [34mvendor[m[m
+drwxr-xr-x   6 duncan  duncan    204 18 Sep 17:12 [34mtmp[m[m
+drwxr-xr-x   8 duncan  duncan    272 18 Sep 17:12 [34mtest[m[m
+drwxr-xr-x   3 duncan  duncan    102 18 Sep 17:12 [34mscript[m[m
+drwxr-xr-x   6 duncan  duncan    204 18 Sep 17:12 [34mlog[m[m
+drwxr-xr-x   3 duncan  duncan    102 18 Sep 17:12 [34mlib[m[m
+drwxr-xr-x   3 duncan  duncan    102 18 Sep 17:12 [34mdoc[m[m
+-rw-r--r--   1 duncan  duncan    160 18 Sep 17:12 config.ru
+drwxr-xr-x   7 duncan  duncan    238 18 Sep 17:12 [34mapp[m[m
+-rw-r--r--   1 duncan  duncan    270 18 Sep 17:12 Rakefile
+-rw-r--r--   1 duncan  duncan   9130 18 Sep 17:12 README
+drwxr-xr-x  10 duncan  duncan    340 18 Sep 19:44 [34mconfig[m[m
+drwxr-xr-x   7 duncan  duncan    238 18 Sep 19:51 [34mdb[m[m
+-rw-r--r--   1 duncan  duncan    703 18 Sep 20:47 Gemfile
+-rw-r--r--   1 duncan  duncan   1882 18 Sep 20:48 Gemfile.lock
+-rw-r--r--   1 duncan  duncan  53763 18 Sep 21:05 server
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps/testRails3/hurwoodweb[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps/testRails3/hurwoodweb >[mcp * [K[K-R * ../hurwoodweb/
+cp: ../hurwoodweb/Gemfile and Gemfile are identical (not copied).
+cp: ../hurwoodweb/Gemfile.lock and Gemfile.lock are identical (not copied).
+cp: ../hurwoodweb/README and README are identical (not copied).
+cp: ../hurwoodweb/Rakefile and Rakefile are identical (not copied).
+cp: ../hurwoodweb/app and app are identical (not copied).
+cp: ../hurwoodweb/config and config are identical (not copied).
+cp: ../hurwoodweb/config.ru and config.ru are identical (not copied).
+cp: ../hurwoodweb/db and db are identical (not copied).
+cp: ../hurwoodweb/doc and doc are identical (not copied).
+cp: ../hurwoodweb/lib and lib are identical (not copied).
+cp: ../hurwoodweb/log and log are identical (not copied).
+cp: ../hurwoodweb/public and public are identical (not copied).
+cp: ../hurwoodweb/script and script are identical (not copied).
+cp: ../hurwoodweb/server and server are identical (not copied).
+cp: ../hurwoodweb/test and test are identical (not copied).
+cp: ../hurwoodweb/tmp and tmp are identical (not copied).
+cp: ../hurwoodweb/vendor and vendor are identical (not copied).
+]0;duncan@Hermes.local: ~/Documents/Program/ruby/rails_apps/testRails3/hurwoodweb[34mduncan@Hermes:~/Documents/Program/ruby/rails_apps/testRails3/hurwoodweb >[m

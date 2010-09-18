@@ -1,7 +1,7 @@
 <% content_for :main do %>
     <% for blog in @blogs.reverse do %>
         <h2><%= link_to "#{blog.title}", :controller => 'blogs', :action => 'show', :id => blog.id %></h2>
-        <%= blog.post[0..220] %>...<br /><br />
+        <%= blog.post[0..220].html_safe %>...<br /><br />
     <% end %>
 <% end %>
 

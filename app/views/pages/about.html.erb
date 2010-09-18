@@ -1,9 +1,9 @@
 <% content_for :main do %>
-    <%= @art.content %>
+    <%= @art.content.html_safe %>
 <% end %>
 
 <% content_for :sidebar do %>
-    <%= @art.sideColumn %>
+    <%= @art.sideColumn.html_safe %>
 <% end %>
 
 
